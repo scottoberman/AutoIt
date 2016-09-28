@@ -71,7 +71,6 @@ If WinWait("VLC media player", "", 10) Then
    EndIf
 
 Else
-   ; TODO Make error window that states that the vlc window has not opened
    ErrorWin("VLC Window not Opening")
 EndIf
 
